@@ -1,12 +1,46 @@
 <%- include partials/header.ejs %>
 
-<%- include partials/main_nav.ejs %>
+<%- include partials/content.ejs %>
   
 
   <!-- Main Content -->
+  <main class = "container">
+    <div class="card-group">
+        <div class="card">
+            <img class="card-img-top" src="/Assets/images/proj1.png" alt="Word Cloud">
+          <div class="card-body">
+            <h4 class="card-title">Word Cloud Generator</h4>
+            <p class="card-text">A wordcloud generator using URL as input. 
+            Its process involves fetching the HTML content, extracting relevant text, and then creating a word cloud
+            where the size of each word corresponds to its frequency in the extracted text.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="/Assets/images/proj2.png" alt="GUI Calculator">
+          <div class="card-body">
+            <h4 class="card-title">GUI Calculator</h4>
+            <p class="card-text">A GUI Calculator using c# having standard and selected scientific functionalities.
+              
+            </p>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="/Assets/images/proj3.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Power Demand Response Management System(Electrical Vechicle Charging System) </h4>
+            <p class="card-text">Developed a SRS, and currently working ons SDD for Power Demand Response Management System in the context of Electrical Vehicle Charging System.
+            The uncoordinated growth of charging stations can lead to inefficient utilization of resources, grid congestion during peak charging times, and higher infrastructure costs. 
+            Without proper management, this can strain the electrical grid and lead to an unreliable charging experience for EV owners.
+            A Power Demand Response Management System (PDRMS) tailored to EV charging can help address this problem by optimizing the deployment and operation of charging infrastructure.
   
+            </p>
+          </div>
+        </div>
+      </div>
+  </main>
 
   
-<%- include partials/bottom_nav.ejs %>  
+
 
 <%- include partials/footer.ejs %>

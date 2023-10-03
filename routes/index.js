@@ -31,13 +31,13 @@ router.get('/services', function(req, res, next) {
   res.render('services', { title: 'Services'});
 });
 
-/* GET Contact Us page. */
+/* GET Contact page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact'});
 });
 
 /* navigate to Services page. */
-router.get('/serviceregister', function(req, res, next) { //routing to service page after service registeration button is clicked. 
+router.get('/serviceregister', function(req, res, next) { //routing to service page after service registration button is clicked. 
   res.render('serviceregister', { title: 'Register'});
 });
 
